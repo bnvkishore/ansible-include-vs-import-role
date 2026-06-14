@@ -10,6 +10,10 @@
   debug:
     msg: "Hi, I'm from common role msg-3"
 
+- name: change the facts
+  set_fact:
+    os: "Debian"
+
 - name: common role msg-4
   debug:
     msg: "Hi, I'm from common role msg-4"
