@@ -1,5 +1,5 @@
 - name: Include-vs-import
   hosts: local
-  connnection: local
+  connection: local
   roles:
   - role-1
