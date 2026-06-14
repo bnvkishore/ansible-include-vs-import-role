@@ -1,10 +1,10 @@
 - name: common role msg-1
   debug:
-    msg: "Hi, I'm from common role msg-1"
+    msg: "Hi, I'm from common role msg-1" 
 
 - name: common role msg-2
   debug:
-    msg: "Hi, I'm from common role msg-2"
+    msg: "Hi, I'm from common role msg-2 {{ item }}"
 
 - name: common role msg-3
   debug:
